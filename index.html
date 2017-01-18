@@ -1,146 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Bootstrap Me</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Store <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Prouct</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Favorite Things</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cary's Favorite Things</a>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
           </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>365 Days of Possibilities</h1>
-      <h2>...</h2>
-      <h3><a href="#" class="btn btn-primary">...</a></h3>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="resume.html"> <i class="fa fa-briefcase"> </i> To Resume</a>
+              </a>
+            </li>
+            <li>
+                <a href="kellogg.html"> <i class="fa fa-pencil"> </i> To Kellogg Courses</a>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <h4>Featured PCs</h4>
-        <p>...</p>
+    <div class="container">
+      <h1 class="title">
+        Cary Scott Shapiro III, Esquire
+        <span class="rating">NC-17</span>
+        <small class="text-muted">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </small>
+      </h1>
+
+      <div class="row">
+        <div class="col-md-3 text-left">
+          <p><img src="images/cary.jpg"></p>
+          <p><strong>Age:</strong> 28.81</p>
+          <p><strong>Ethnicity:</strong> Undisclosed</p>
+          <p><strong>Phyical Description:</strong> Handsome</p>
+        </div>
+        <div class="col-md-9 summary">
+          <h2>Favorite Moments</h2>
+          <p>
+            Below are a few of Cary's favorite moments.  They would all be included in a proper eulogy.
+          </p>
+          <p>
+            <i class="fa fa-cloud" aria-hidden="true"></i> Bungee Jump - The summer after Middle School, Cary went on a class trip to South Africa.  The group visited the bridge that's in Guinness Book of World Records for highest bungee jump.  Cary was the first in the group to jump because he is the bravest... and because the order was determined by weight.
+          </p>
+          <p>
+            <i class="fa fa-calendar" aria-hidden="true"></i> School Week - During a one-week period in highschool, Cary placed in a national Constitutional Law competition, was cast as the lead in the school play (Tevye in Fiddler, obviously), and was accepted early to Northwestern University.  This was a notable week, even for Cary.
+          </p>
+          <p>
+            <i class="fa fa-plane" aria-hidden="true"></i> Pilot - During college, one of Cary's fraternity brothers earned his pilot's license and offered to fly Cary to Wisconsin in a two-passenger airplane.  During the flight, Cary was allowed to hold the wheel and control the plane for several seconds.  Cary is now technically a pilot.  And both flyers are technically felons.
+          </p>
+          <p>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i> First Job - Upon graduation from Northwestern University, Cary was giving campus tours and telling groups that he couln't find a job.  One of the father's asked for Cary's resume.  The father turned out to be the CEO of Boeing.  Cary has worked at Boeing for the last seven years.
+          </p>
+          <p>
+            <i class="fa fa-laptop" aria-hidden="true"></i> Coding - During graduate school, Cary learned how to code and create his own website.  It is the very site you're readin now.  How meta.
+          </p>
       </div>
-      <div class="col-sm-3">
-        <h4>XBOX One S</h4>
-        <p>...</p>
+      <div class="row">
+        <div class="col-md-9 col-md-offset-3">
+        </div>
       </div>
-      <div class="col-sm-3">
-        <h4>Windows 10</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-3">
-        <h4>Microsoft and the NFL</h4>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>Microsoft Store</h1>
-      <h2>...</h2>
-      <h3><a href="#" class="btn btn-primary">...</a></h3>
-    </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <h4>Office 360 for Business</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-3">
-        <h4>Windows 10 Enterprise</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-3">
-        <h4>Visual Studio 2015</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-3">
-        <h4>Microsoft Dynamics 365</h4>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>Playing with Passion</h1>
-      <h2>...</h2>
-      <h3><a href="#" class="btn btn-primary">...</a></h3>
-    </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <h4>Learn</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-2">
-        <h4>Devices</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-2">
-        <h4>Microsoft Store</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-2">
-        <h4>Download</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-2">
-        <h4>Values</h4>
-        <p>...</p>
-      </div>
-      <div class="col-sm-2">
-        <h4>Company</h4>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-</body>
+        <div class="row">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-9 col-md-offset-3 reviews">
+                <h2 class="page-header"> <i class="fa fa-ticket" aria-hidden="true"></i> Favorite Movie - The Usual Suspects</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oiXdPolca5w" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-9 col-md-offset-3 reviews">
+                <h2 class="page-header"> <i class="fa fa-music" aria-hidden="true"></i> Favorite Artist - Billy Joel</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GnRJz5MafYI" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-9 col-md-offset-3 reviews">
+                <h2 class="page-header"> <i class="fa fa-book" aria-hidden="true"></i> Favorite Book - The Road</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EvDTg92H39E" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-9 col-md-offset-3 reviews">
+                <h2 class="page-header"> <i class="fa fa-gamepad" aria-hidden="true"></i> Favorite Video Game - Metal Gear Solid V</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/153tKBF0CWE" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
 </html>
